@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Podflix</h1>
+            <nav>
+                <a href="/">Início</a>
+                <a href="#">Cinema</a>
+                <a href="#">Tecnologia</a>
+                <a href="#">Cultura</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="destaque">
+                <div class="info">
+                    <h2 class="title">Caneca de Mamicas 09 - Todos contra o bullying</h2>
+                    <h3 class="podcast">NERDCAST</h3>
+                    <p class="description">Saiba como passamos por isso, como reagimos e fomos afetados, e quais foram nossos erros e acertos mais tarde com nossos filhos.
+                        Discutimos também a importância da família, da escola e do diálogo no combate ao bullying.</p>
+                    <div>
+                        <a class="link" href="https://jovemnerd.com.br/nerdcast/caneca-de-mamicas/todos-contra-o-bullying/" target="_blank"><i class="fas fa-plus"></i> Detalhes</a>
+                    </div>
+                </div>
+                <div class="capa"></div>
+            </section>
+            <div class="player">
+                <audio>
+                    <source src="https://nerdcast.jovemnerd.com.br/mamicas_09.mp3">
+                </audio>
+                <button id="play"><i class="fas fa-play"></i></button>
+                <div>
+                    <button id="backward"><i class="fas fa-backward"></i> 10</button>
+                    <button id="forward">10 <i class="fas fa-forward"></i></button>
+                </div>
+                <span id="current-time">00:00:00</span>
+                <progress max="0" value="0"></progress>
+                <span id="total-time">00:00:00</span>
+                
+                <div>
+                    <button id="plus-volume"><i class="fas fa-volume-up"></i> +</button>
+                    <button id="minus-volume"><i class="fas fa-volume-up"></i> -</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="podcasts">
+       
+    </section>
+    
+</body>
+</html>
