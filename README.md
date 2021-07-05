@@ -1,11 +1,11 @@
 # Podflix
 
-Clone da neflix para podcast feito como exercício. Desenvolvido com HTML/CSS/Javascript(jquery por requisito do exercício).
+"Clone" da neflix para podcast feito como exercício. Desenvolvido com HTML/CSS/Javascript(jquery por requisito do exercício).
 
 - Possui player para tocar o episódio.
-- Episódios do podcast podem ser atualizados executando script PHP feed.php.
+- Episódios do podcast podem ser atualizados através do feed do podcast executando script PHP feed.php.
 
-
+[https://rodrigoaramburu.github.io/podflix/](https://rodrigoaramburu.github.io/podflix/)
 
 ### Atualizando
 

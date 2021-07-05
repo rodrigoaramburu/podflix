@@ -2,7 +2,7 @@ $(document).ready( function(){
 
     $.get('data.json', function(data){
         
-        loadEpisode(data[0].episodes[1]);
+        loadEpisode(data[0].episodes[0]);
         
         populatePodcasts(data);
 
